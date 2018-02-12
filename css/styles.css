@@ -1,0 +1,68 @@
+/* css style file module 2 */
+title {display:none;}
+h1 {
+
+text-align: center;
+text-shadow: 4px 1px #FF0000;}
+
+div {box-sizing:border-box;
+  display:inline-block;
+  vertical-align:top;}
+
+.container {position:relative;}
+  .content {
+  padding:7px;
+  position:relative;
+  color: yellow;
+  border: 1px;
+  border-color:black;
+  background-color:#4169E1;
+  margin:0.5%;}
+
+
+span {font-size:120%;
+  padding:5px;
+  }
+
+#tab1 {position:absolute;
+  background-color:red;
+  top:0px;
+  right:0px;
+border:1px;
+border-color:black;}
+#tab2 {position:absolute;
+  background-color:orange;
+  top:0px;
+  right:0px;
+  border:1px;
+border-color:black;}
+#tab3 {position:absolute;
+  background-color:green;
+  top:0px;
+  right:0px;
+  border:1px;
+border-color:black;}
+
+
+@media(min-width:992px){
+  #p1 , #p2 , #p3 { 
+  width:32%;
+  position:relative;
+  }
+}
+  
+@media (min-width:768px) and (max-width:991px) {
+   #p1,#p2,#p3 {width:40%;
+    }
+    #p3 {float:left;
+      width:81.5%;}
+    }   
+
+@media (max-width: 767px){ 
+  #p1 , #p2 , #p3 { 
+  
+  width:86%;
+  position:relative;}
+
+#p1 {clear:right;}
+}
